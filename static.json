@@ -1,0 +1,58 @@
+{
+  "headers": {
+    "/**": {
+      "Access-Control-Allow-Origin": "*"
+    }
+  },
+
+  "proxies": {
+    "/pusher_auth": {
+      "origin": "https://fast-run-kitchen.herokuapp.com/pusher_auth"
+    },
+    "/api/registration": {
+      "origin": "https://fast-run-kitchen.herokuapp.com/api/registration"
+    },
+    "/api/registration/confirm": {
+      "origin": "https://fast-run-kitchen.herokuapp.com/api/registration/confirm"
+    },
+    "/api/registration/resend": {
+      "origin": "https://fast-run-kitchen.herokuapp.com/api/registration/resend"
+    },
+    "/api/registration/token": {
+      "origin": "https://fast-run-kitchen.herokuapp.com/api/registration/token"
+    },
+    "/api/registration/pusher": {
+      "origin": "https://fast-run-kitchen.herokuapp.com/api/registration/pusher"
+    },
+    "/api/menu": {
+      "origin": "https://fast-run-kitchen.herokuapp.com/api/menu"
+    },
+    "/api/order": {
+      "origin": "https://fast-run-kitchen.herokuapp.com/api/order"
+    },
+    "/api/order_v2": {
+      "origin": "https://fast-run-kitchen.herokuapp.com/api/order_v2"
+    },
+    "/api/bonus": {
+      "origin": "https://fast-run-kitchen.herokuapp.com/api/bonus"
+    },
+    "/api/bonus_v2": {
+      "origin": "https://fast-run-kitchen.herokuapp.com/api/bonus_v2"
+    },
+    "/api/orders": {
+      "origin": "https://fast-run-kitchen.herokuapp.com/api/orders"
+    },
+    "/api/user/name": {
+      "origin": "https://fast-run-kitchen.herokuapp.com/api/user/name"
+    },
+    "/api/user/preferences": {
+      "origin": "https://fast-run-kitchen.herokuapp.com/api/user/preferences"
+    },
+    "/api/user/attribution": {
+      "origin": "https://fast-run-kitchen.herokuapp.com/api/user/attribution"
+    },
+    "/post3ds": {
+      "origin": "https://fast-run-kitchen.herokuapp.com/post3ds"
+    }
+  }
+}
