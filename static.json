@@ -1,57 +1,57 @@
 {
   "proxies": {
     "/pusher_auth": {
-      "origin": "https://app.localkitchen.ru/pusher_auth"
+      "origin": "https://23.105.225.22/pusher_auth"
     },
     "/api/registration": {
-      "origin": "https://app.localkitchen.ru/api/registration"
+      "origin": "https://23.105.225.22/api/registration"
     },
     "/api/registration/confirm": {
-      "origin": "https://app.localkitchen.ru/api/registration/confirm"
+      "origin": "https://23.105.225.22/api/registration/confirm"
     },
     "/api/registration/resend": {
-      "origin": "https://app.localkitchen.ru/api/registration/resend"
+      "origin": "https://23.105.225.22/api/registration/resend"
     },
     "/api/registration/token": {
-      "origin": "https://app.localkitchen.ru/api/registration/token"
+      "origin": "https://23.105.225.22/api/registration/token"
     },
     "/api/registration/pusher": {
-      "origin": "https://app.localkitchen.ru/api/registration/pusher"
+      "origin": "https://23.105.225.22/api/registration/pusher"
     },
     "/api/menu": {
-      "origin": "https://app.localkitchen.ru/api/menu"
+      "origin": "https://23.105.225.22/api/menu"
     },
     "/api/order": {
-      "origin": "https://app.localkitchen.ru/api/order"
+      "origin": "https://23.105.225.22/api/order"
     },
     "/api/order_v2": {
-      "origin": "https://app.localkitchen.ru/api/order_v2"
+      "origin": "https://23.105.225.22/api/order_v2"
     },
     "/api/bonus": {
-      "origin": "https://app.localkitchen.ru/api/bonus"
+      "origin": "https://23.105.225.22/api/bonus"
     },
     "/api/bonus_v2": {
-      "origin": "https://app.localkitchen.ru/api/bonus_v2"
+      "origin": "https://23.105.225.22/api/bonus_v2"
     },
     "/api/orders": {
-      "origin": "https://app.localkitchen.ru/api/orders"
+      "origin": "https://23.105.225.22/api/orders"
     },
     "/api/user/name": {
-      "origin": "https://app.localkitchen.ru/api/user/name"
+      "origin": "https://23.105.225.22/api/user/name"
     },
     "/api/user/preferences": {
-      "origin": "https://app.localkitchen.ru/api/user/preferences"
+      "origin": "https://23.105.225.22/api/user/preferences"
     },
     "/api/user/attribution": {
-      "origin": "https://app.localkitchen.ru/api/user/attribution"
+      "origin": "https://23.105.225.22/api/user/attribution"
     },
     "/post3ds": {
-      "origin": "https://app.localkitchen.ru/post3ds"
+      "origin": "https://23.105.225.22/post3ds"
     }
   },
   "redirects": {
     "/": {
-      "url": "https://app.localkitchen.ru",
+      "url": "https://23.105.225.22",
       "status": 302
     }
   }
