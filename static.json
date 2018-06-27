@@ -51,8 +51,13 @@
   },
   "redirects": {
     "/": {
-      "url": "https://23.105.225.22",
+      "url": "https://app.localkitchen.ru",
+      "status": 302
+    },
+    "/login": {
+      "url": "https://app.localkitchen.ru/login",
       "status": 302
     }
+
   }
 }
