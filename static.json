@@ -48,5 +48,11 @@
     "/post3ds": {
       "origin": "https://app.localkitchen.ru/post3ds"
     }
+  },
+  "redirects": {
+    "/": {
+      "url": "https://app.localkitchen.ru",
+      "status": 302
+    }
   }
 }
